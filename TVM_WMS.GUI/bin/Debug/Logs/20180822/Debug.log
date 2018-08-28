@@ -1,0 +1,43 @@
+2018-08-22 07:07:57,116 DEBUG Main Ц «апуск программы.
+2018-08-22 07:08:21,724 DEBUG Connect Ц »нициализаци€ таймера WatchDog0
+2018-08-22 07:08:21,790 DEBUG TimerStart Ц «апустили таймер WatchDog, текуща€ Ѕƒ є0
+2018-08-22 07:08:22,792 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true 0 22.08.2018 10:08:22:792
+2018-08-22 07:08:23,882 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 1 22.08.2018 10:08:23:882
+2018-08-22 07:08:24,931 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true 0 22.08.2018 10:08:24:931
+2018-08-22 07:08:25,974 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 1 22.08.2018 10:08:25:974
+2018-08-22 07:08:27,021 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true 0 22.08.2018 10:08:27:021
+2018-08-22 07:08:27,792 DEBUG .ctor Ц «апуск формы '“естирование'
+2018-08-22 07:08:27,803 DEBUG SetDeviceIndicators Ц ”стройство сканер не найдено!
+2018-08-22 07:08:27,878 DEBUG SetDeviceIndicators Ц PLC устройство отключено! ќкно не зан€то
+2018-08-22 07:08:28,063 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 1 22.08.2018 10:08:28:063
+2018-08-22 07:08:29,108 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true 0 22.08.2018 10:08:29:108
+2018-08-22 07:08:30,155 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 1 22.08.2018 10:08:30:155
+2018-08-22 07:08:31,199 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true 0 22.08.2018 10:08:31:199
+2018-08-22 07:08:32,244 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 1 22.08.2018 10:08:32:244
+2018-08-22 07:08:33,289 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true 0 22.08.2018 10:08:33:289
+2018-08-22 07:08:33,817 DEBUG openPlcDeviceBtn_Click Ц –€д склада не выбран. ¬оспользуйтесь списком р€дов дл€ выбора.
+2018-08-22 07:08:34,336 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 1 22.08.2018 10:08:34:336
+2018-08-22 07:08:35,381 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true 0 22.08.2018 10:08:35:381
+2018-08-22 07:08:35,977 DEBUG SetDeviceIndicators Ц ”стройство сканер не найдено!
+2018-08-22 07:08:36,427 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 1 22.08.2018 10:08:36:427
+2018-08-22 07:08:37,469 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true 0 22.08.2018 10:08:37:469
+2018-08-22 07:08:38,514 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 1 22.08.2018 10:08:38:514
+2018-08-22 07:08:39,559 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 0 22.08.2018 10:08:39:559
+2018-08-22 07:08:40,606 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true -1 22.08.2018 10:08:40:606
+2018-08-22 07:08:41,651 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 0 22.08.2018 10:08:41:651
+2018-08-22 07:08:42,693 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true -1 22.08.2018 10:08:42:693
+2018-08-22 07:08:43,745 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 0 22.08.2018 10:08:43:745
+2018-08-22 07:08:44,790 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true -1 22.08.2018 10:08:44:789
+2018-08-22 07:08:45,833 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 0 22.08.2018 10:08:45:833
+2018-08-22 07:08:46,876 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true -1 22.08.2018 10:08:46:875
+2018-08-22 07:08:47,920 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 0 22.08.2018 10:08:47:920
+2018-08-22 07:08:48,965 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true -1 22.08.2018 10:08:48:965
+2018-08-22 07:08:50,012 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 0 22.08.2018 10:08:50:012
+2018-08-22 07:08:51,056 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true -1 22.08.2018 10:08:51:056
+2018-08-22 07:08:52,101 DEBUG timerWatchDog_Elapsed Ц ѕолучили false, записали false 0 22.08.2018 10:08:52:101
+2018-08-22 07:08:53,148 DEBUG timerWatchDog_Elapsed Ц ѕолучили true, записали true -1 22.08.2018 10:08:53:148
+2018-08-22 07:44:49,549 DEBUG Main Ц «апуск программы.
+2018-08-22 07:44:59,010 DEBUG .ctor Ц «апуск формы '“естирование'
+2018-08-22 07:44:59,037 DEBUG SetDeviceIndicators Ц ”стройство сканер не найдено!
+2018-08-22 07:44:59,121 DEBUG SetDeviceIndicators Ц PLC устройство отключено! ќкно не зан€то
+2018-08-22 07:44:59,126 DEBUG SetDeviceIndicators Ц ”стройство сканер не найдено!

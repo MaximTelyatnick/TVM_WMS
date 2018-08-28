@@ -1,0 +1,10 @@
+2018-08-20 13:04:43,705 DEBUG Connect – Инициализация таймера WatchDog0
+2018-08-20 13:04:43,785 DEBUG TimerStart – Запустили таймер WatchDog, текущая БД №0
+2018-08-20 13:04:44,779 DEBUG timerWatchDog_Elapsed – Получили true, записали true 0 20.08.2018 04:04:44:779
+2018-08-20 13:04:45,887 DEBUG timerWatchDog_Elapsed – Получили false, записали false 1 20.08.2018 04:04:45:887
+2018-08-20 13:04:46,935 DEBUG timerWatchDog_Elapsed – Получили true, записали true 0 20.08.2018 04:04:46:935
+2018-08-20 13:04:47,975 DEBUG timerWatchDog_Elapsed – Получили false, записали false 1 20.08.2018 04:04:47:975
+2018-08-20 13:04:49,023 DEBUG timerWatchDog_Elapsed – Получили true, записали true 0 20.08.2018 04:04:49:023
+2018-08-20 13:04:50,067 DEBUG timerWatchDog_Elapsed – Получили false, записали false 1 20.08.2018 04:04:50:067
+2018-08-20 13:04:51,115 DEBUG timerWatchDog_Elapsed – Получили true, записали true 0 20.08.2018 04:04:51:115
+2018-08-20 13:04:52,162 DEBUG timerWatchDog_Elapsed – Получили false, записали false 1 20.08.2018 04:04:52:162

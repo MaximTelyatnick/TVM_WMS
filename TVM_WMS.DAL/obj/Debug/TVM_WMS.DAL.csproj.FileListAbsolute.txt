@@ -1,0 +1,13 @@
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\bin\Debug\TVM_WMS.DAL.dll
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\bin\Debug\TVM_WMS.DAL.pdb
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\bin\Debug\EntityFramework.dll
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\bin\Debug\EntityFramework.Firebird.dll
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\bin\Debug\EntityFramework.xml
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\bin\Debug\EntityFramework.Firebird.pdb
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\bin\Debug\FirebirdSql.Data.FirebirdClient.pdb
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\obj\Debug\TVM_WMS.DAL.csprojResolveAssemblyReference.cache
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\obj\Debug\TVM_WMS.DAL.dll
+D:\NewProject\TVM_WMS\TVM_WMS\TVM_WMS.DAL\obj\Debug\TVM_WMS.DAL.pdb

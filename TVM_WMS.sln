@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVM_WMS.DAL", "TVM_WMS.DAL\TVM_WMS.DAL.csproj", "{3E2C30E4-8C81-4636-80A8-4E505C79FC78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVM_WMS.BLL", "TVM_WMS.BLL\TVM_WMS.BLL.csproj", "{D2A64BAD-ABCE-4424-BEA8-EC76E06D69FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVM_WMS.GUI", "TVM_WMS.GUI\TVM_WMS.GUI.csproj", "{97577DF9-AAF9-402E-B99E-0D63BE12F6DB}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://191.168.2.135:8080/tfs/projectforselling
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TVM_WMS.BLL\\TVM_WMS.BLL.csproj
+		SccProjectName1 = TVM_WMS.BLL
+		SccLocalPath1 = TVM_WMS.BLL
+		SccProjectUniqueName2 = TVM_WMS.DAL\\TVM_WMS.DAL.csproj
+		SccProjectName2 = TVM_WMS.DAL
+		SccLocalPath2 = TVM_WMS.DAL
+		SccProjectUniqueName3 = TVM_WMS.GUI\\TVM_WMS.GUI.csproj
+		SccProjectName3 = TVM_WMS.GUI
+		SccLocalPath3 = TVM_WMS.GUI
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E2C30E4-8C81-4636-80A8-4E505C79FC78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2C30E4-8C81-4636-80A8-4E505C79FC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2C30E4-8C81-4636-80A8-4E505C79FC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2C30E4-8C81-4636-80A8-4E505C79FC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A64BAD-ABCE-4424-BEA8-EC76E06D69FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A64BAD-ABCE-4424-BEA8-EC76E06D69FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A64BAD-ABCE-4424-BEA8-EC76E06D69FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A64BAD-ABCE-4424-BEA8-EC76E06D69FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97577DF9-AAF9-402E-B99E-0D63BE12F6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97577DF9-AAF9-402E-B99E-0D63BE12F6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97577DF9-AAF9-402E-B99E-0D63BE12F6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97577DF9-AAF9-402E-B99E-0D63BE12F6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

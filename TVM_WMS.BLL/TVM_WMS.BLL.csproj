@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2A64BAD-ABCE-4424-BEA8-EC76E06D69FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TVM_WMS.BLL</RootNamespace>
+    <AssemblyName>TVM_WMS.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.Firebird">
+      <HintPath>..\packages\EntityFramework.Firebird.5.0.5\lib\net45\EntityFramework.Firebird.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FirebirdSql.Data.FirebirdClient">
+      <HintPath>..\packages\FirebirdSql.Data.FirebirdClient.5.0.5\lib\net45\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.3.5\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NLog.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.Windows.Forms.4.2.3\lib\net35\NLog.Windows.Forms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="S7.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d5812d469e84c693, processorArchitecture=MSIL">
+      <HintPath>..\packages\S7netplus.0.1.4\lib\net45\S7.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SpreadsheetGear">
+      <HintPath>..\packages\SpreadsheetGear.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TVM_WMS.BLL">
+      <HintPath>bin\Release\TVM_WMS.BLL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLogicModule\Error.cs" />
+    <Compile Include="DTO\AccessRightsDTO.cs" />
+    <Compile Include="BusinessLogicModule\ConfigClass.cs" />
+    <Compile Include="BusinessLogicModule\ObjectBase.cs" />
+    <Compile Include="BusinessLogicModule\PropertyCompare.cs" />
+    <Compile Include="BusinessLogicModule\Security.cs" />
+    <Compile Include="BusinessLogicModule\SortArray.cs" />
+    <Compile Include="DTO\AlarmsDTO.cs" />
+    <Compile Include="DTO\CellZonesDTO.cs" />
+    <Compile Include="DTO\ConfirmQuantityDTO.cs" />
+    <Compile Include="DTO\DataItemsDTO.cs" />
+    <Compile Include="DTO\DeficitMaterialsDTO.cs" />
+    <Compile Include="DTO\DeviceBindingsDTO.cs" />
+    <Compile Include="DTO\ExpendituresDTO.cs" />
+    <Compile Include="DTO\GlobalSettingsDTO.cs" />
+    <Compile Include="DTO\HistoryKeepingsDTO.cs" />
+    <Compile Include="DTO\PlcTypesDTO.cs" />
+    <Compile Include="DTO\ProfessionsDTO.cs" />
+    <Compile Include="DTO\QueryDTO\CellLoadDTO.cs" />
+    <Compile Include="DTO\QueryDTO\CellQuantityByZonesDTO.cs" />
+    <Compile Include="DTO\QueryDTO\DataItemsQueryDTO.cs" />
+    <Compile Include="DTO\QueryDTO\DeviceBindingSettingsDTO.cs" />
+    <Compile Include="DTO\QueryDTO\DeviceInfoDTO.cs" />
+    <Compile Include="DTO\QueryDTO\GlobalSettingsInfoDTO.cs" />
+    <Compile Include="DTO\QueryDTO\ReceiptsForAcceptanceDTO.cs" />
+    <Compile Include="DTO\QueryDTO\StoreLoadDTO.cs" />
+    <Compile Include="DTO\QueryDTO\WareHousePresencesDTO.cs" />
+    <Compile Include="DTO\QueryDTO\ZoneNamesByStoreDTO.cs" />
+    <Compile Include="DTO\SettingTypesDTO.cs" />
+    <Compile Include="DTO\StorageGroupUsersDTO.cs" />
+    <Compile Include="DTO\StoreBindingsDTO.cs" />
+    <Compile Include="DTO\DevicesDTO.cs" />
+    <Compile Include="DTO\DeviceSettingsDTO.cs" />
+    <Compile Include="DTO\DeviceTypesDTO.cs" />
+    <Compile Include="DTO\PersonsDTO.cs" />
+    <Compile Include="DTO\QueryDTO\CellPresenceDTO.cs" />
+    <Compile Include="DTO\QueryDTO\DeficitCalcMaterialsDTO.cs" />
+    <Compile Include="DTO\QueryDTO\KeepingMaterialsDTO.cs" />
+    <Compile Include="DTO\QueryDTO\ReceiptsForKeepingDTO.cs" />
+    <Compile Include="DTO\QueryDTO\StorageGroupsByZonesDTO.cs" />
+    <Compile Include="DTO\QueryDTO\StorageGroupZonePresenceDTO.cs" />
+    <Compile Include="DTO\ReceiptAcceptancesDTO.cs" />
+    <Compile Include="DTO\RequirementMaterialsDTO.cs" />
+    <Compile Include="DTO\RequirementOrdersDTO.cs" />
+    <Compile Include="DTO\SettingKindsDTO.cs" />
+    <Compile Include="DTO\StorageGroupZonesDTO.cs" />
+    <Compile Include="DTO\StoreSettingsDTO.cs" />
+    <Compile Include="DTO\StoreTypesDTO.cs" />
+    <Compile Include="DTO\TasksDTO.cs" />
+    <Compile Include="DTO\UserRolesDTO.cs" />
+    <Compile Include="DTO\UserTasksDTO.cs" />
+    <Compile Include="DTO\ZoneNamesDTO.cs" />
+    <Compile Include="DTO\StorageGroupsDTO.cs" />
+    <Compile Include="DTO\ContractorsDTO.cs" />
+    <Compile Include="DTO\CurrencyDTO.cs" />
+    <Compile Include="DTO\EnumerationTypesDTO.cs" />
+    <Compile Include="DTO\KeepingsDTO.cs" />
+    <Compile Include="DTO\MaterialGroupsDTO.cs" />
+    <Compile Include="DTO\MaterialsDTO.cs" />
+    <Compile Include="DTO\MeasuresDTO.cs" />
+    <Compile Include="DTO\OrdersDTO.cs" />
+    <Compile Include="DTO\PackingTypesDTO.cs" />
+    <Compile Include="DTO\ReceiptsDTO.cs" />
+    <Compile Include="DTO\StoreNamesDTO.cs" />
+    <Compile Include="DTO\UnitsDTO.cs" />
+    <Compile Include="DTO\UserGroupsDTO.cs" />
+    <Compile Include="DTO\UserRightsDTO.cs" />
+    <Compile Include="DTO\UsersDTO.cs" />
+    <Compile Include="DTO\WareHousesDTO.cs" />
+    <Compile Include="DTO\ZoneTypesDTO.cs" />
+    <Compile Include="Infrastructure\Logger\Logger.cs" />
+    <Compile Include="Infrastructure\LogicUtils.cs" />
+    <Compile Include="Infrastructure\PlcWrapper\ConnectionStates.cs" />
+    <Compile Include="Infrastructure\PlcWrapper\ISyncPlcDriver.cs" />
+    <Compile Include="Infrastructure\PlcWrapper\PLC.cs" />
+    <Compile Include="Infrastructure\PlcWrapper\PlcListenVar.cs" />
+    <Compile Include="Infrastructure\PlcWrapper\S7NetPlcDriver.cs" />
+    <Compile Include="Infrastructure\PlcWrapper\Tag.cs" />
+    <Compile Include="Infrastructure\SerialPortListener\SerialPortManager.cs" />
+    <Compile Include="Infrastructure\SerialPortListener\SerialSettings.cs" />
+    <Compile Include="Infrastructure\ServiceModule.cs" />
+    <Compile Include="Infrastructure\WatchDog\WatchDog.cs" />
+    <Compile Include="Interfaces\IDeficitMaterialsService.cs" />
+    <Compile Include="Interfaces\IExpendituresService.cs" />
+    <Compile Include="Interfaces\IPersonsService.cs" />
+    <Compile Include="Interfaces\IProfessionService.cs" />
+    <Compile Include="Interfaces\IReceiptAcceptancesService.cs" />
+    <Compile Include="Interfaces\IReportsService.cs" />
+    <Compile Include="Interfaces\IRequirementsService.cs" />
+    <Compile Include="Interfaces\ISettingsService.cs" />
+    <Compile Include="Interfaces\IStorageGroupZonesService.cs" />
+    <Compile Include="Interfaces\IZoneNamesService.cs" />
+    <Compile Include="Interfaces\IStorageGroupsService.cs" />
+    <Compile Include="Interfaces\IContractorsService.cs" />
+    <Compile Include="Interfaces\ICurrencyService.cs" />
+    <Compile Include="Interfaces\IEnumerationTypesService.cs" />
+    <Compile Include="Interfaces\IKeepingsService.cs" />
+    <Compile Include="Interfaces\IMaterialGroupsService.cs" />
+    <Compile Include="Interfaces\IMaterialsService.cs" />
+    <Compile Include="Interfaces\IMeasuresService.cs" />
+    <Compile Include="Interfaces\ICellZonesService.cs" />
+    <Compile Include="Interfaces\IOrdersService.cs" />
+    <Compile Include="Interfaces\IPackingTypesService.cs" />
+    <Compile Include="Interfaces\IReceiptsService.cs" />
+    <Compile Include="Interfaces\IStoreNamesService.cs" />
+    <Compile Include="Interfaces\IUnitsService.cs" />
+    <Compile Include="Interfaces\IUsersService.cs" />
+    <Compile Include="Interfaces\IWareHousesService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CellZonesService.cs" />
+    <Compile Include="Services\DeficitMaterialsService.cs" />
+    <Compile Include="Services\ExpendituresService.cs" />
+    <Compile Include="Services\PersonsService.cs" />
+    <Compile Include="Services\ProfessionService.cs" />
+    <Compile Include="Services\ReceiptAcceptancesService.cs" />
+    <Compile Include="Services\ReportsService.cs" />
+    <Compile Include="Services\RequirementsService.cs" />
+    <Compile Include="Services\SettingsService.cs" />
+    <Compile Include="Services\StorageGroupZonesService.cs" />
+    <Compile Include="Services\ZoneNamesService.cs" />
+    <Compile Include="Services\StorageGroupsService.cs" />
+    <Compile Include="Services\ContractorsService.cs" />
+    <Compile Include="Services\CurrencyService.cs" />
+    <Compile Include="Services\EnumerationTypesService.cs" />
+    <Compile Include="Services\KeepingsService.cs" />
+    <Compile Include="Services\MaterialGroupsService.cs" />
+    <Compile Include="Services\MaterialsService.cs" />
+    <Compile Include="Services\MeasuresService.cs" />
+    <Compile Include="Services\OrdersService.cs" />
+    <Compile Include="Services\PackingTypesService.cs" />
+    <Compile Include="Services\ReceiptsService.cs" />
+    <Compile Include="Services\StoreNamesService.cs" />
+    <Compile Include="Services\UnitsService.cs" />
+    <Compile Include="Services\UsersService.cs" />
+    <Compile Include="Services\WareHousesService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TVM_WMS.DAL\TVM_WMS.DAL.csproj">
+      <Project>{3e2c30e4-8c81-4636-80a8-4e505c79fc78}</Project>
+      <Name>TVM_WMS.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

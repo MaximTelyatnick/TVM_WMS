@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GlobalLocalSettingsSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DbServerName>191.168.2.135</DbServerName>
+  <DbAlias>TVM_WH</DbAlias>
+  <LogFileCheck>true</LogFileCheck>
+  <LogFilePath>D:\teliatnyck\Desktop</LogFilePath>
+  <LogSaveDay>3</LogSaveDay>
+  <ReceiptXMLPath>авапвап</ReceiptXMLPath>
+  <ExpenditureXMLPath>апвапвап</ExpenditureXMLPath>
+  <WatchDogPLCOffset>DBX0.0</WatchDogPLCOffset>
+  <WatchDogPCOffset>DBX0.1</WatchDogPCOffset>
+  <WatchDogDBName>DB30</WatchDogDBName>
+  <WatchDogPLCName>plc1</WatchDogPLCName>
+</GlobalLocalSettingsSource>
